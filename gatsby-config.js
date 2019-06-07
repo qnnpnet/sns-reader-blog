@@ -4,6 +4,9 @@ module.exports = {
     author: `Bongjoo Seo`,
     description: `안드로이드 앱 "알림 읽어줘" 에 대한 설명 제공`,
     siteUrl: `https://noti-reader.qnnp.com/`,
+    social: {
+      twitter: `qnnpnet`,
+    },
   },
   plugins: [
     {
