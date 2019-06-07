@@ -38,11 +38,13 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              알림 읽어줘 (Read SNS to Me)는 문자, 카톡, 라인, 페이스북 등 SNS
+              메시지가 도착하면 음성으로 읽어주는 서비스 입니다.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              <a
+                href={`https://play.google.com/store/apps/details?id=net.qnnp.notireader`}
+              >
+                안드로이드용 알림 읽어줘 앱을 설치해 보세요!
               </a>
             </p>
           </div>
@@ -54,7 +56,7 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+    avatar: file(absolutePath: { regex: "/sns-reader-logo.png/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
