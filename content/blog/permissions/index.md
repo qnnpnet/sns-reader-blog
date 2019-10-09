@@ -5,6 +5,8 @@ date: "2019-08-12T23:50:00.000Z"
 
 ## Permissions
 
+### This app uses Permissions for displaying caller ID
+
 - `READ_PHONE_STATE`
 
   This permission is required to recognize the phone state whether the incoming call is ringing.
