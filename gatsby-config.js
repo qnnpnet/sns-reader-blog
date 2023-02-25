@@ -3,7 +3,7 @@ module.exports = {
     title: "알림 읽어줘 (Read SNS to Me)",
     author: `Bongjoo Seo`,
     description: `안드로이드 앱 "알림 읽어줘" 에 대한 설명 제공`,
-    siteUrl: `https://sns-reader.netlify.com/`,
+    siteUrl: `https://sns-reader.netlify.app/`,
     social: {
       twitter: `qnnpnet`,
     },
